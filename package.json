@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": { "node": "26.x", "npm": "11.x" },
+  "engines": { "node": ">=24", "npm": "11.x" },
   "packageManager": "npm@11.20.0",
   "scripts": {
     "postinstall": "node scripts/copy-stockfish.mjs",
